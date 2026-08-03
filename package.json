@@ -1,0 +1,31 @@
+{
+  "name": "deterministic-evals",
+  "version": "0.1.0",
+  "description": "A deterministic eval harness for LLM apps: four scorers, no LLM judge, and an exit code that tells a regression apart from an inconclusive run.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\"",
+    "example": "node examples/run.ts"
+  },
+  "keywords": [
+    "llm",
+    "evals",
+    "evaluation",
+    "guardrails",
+    "adversarial",
+    "testing",
+    "ci"
+  ]
+}
