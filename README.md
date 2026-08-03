@@ -4,7 +4,7 @@ A small eval harness for LLM applications. Four deterministic scorers, no LLM
 judge, and an exit code that can tell a regression apart from a run that could
 not be completed.
 
-Zero dependencies. Zero build step (Node ≥ 22.18 strips the types). ~400 lines
+Zero dependencies. Zero build step (Node ≥ 22.18 strips the types). ~470 lines
 of source, 38 tests.
 
 ```bash
