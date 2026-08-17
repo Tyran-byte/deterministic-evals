@@ -1,5 +1,7 @@
 # deterministic-evals
 
+[![CI](https://github.com/Tyran-byte/deterministic-evals/actions/workflows/ci.yml/badge.svg)](https://github.com/Tyran-byte/deterministic-evals/actions/workflows/ci.yml)
+
 A small eval harness for LLM applications. Four deterministic scorers, no LLM
 judge, and an exit code that can tell a regression apart from a run that could
 not be completed.
